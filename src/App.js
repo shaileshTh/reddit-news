@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 var axios = require('axios');
 var config = {
   method: 'get',
-  url: 'http://api.reddit.com/r/worldnews/hot.json',
+  url: 'https://api.reddit.com/r/worldnews/hot.json',
   headers: { }
 };
 
