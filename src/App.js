@@ -38,7 +38,7 @@ function App() {
         document.querySelector("#container").children[index - 1].style.display = "none";
         index++;
       }
-    }, 5000)
+    }, 10000)
 
   }, [loaded])
 
